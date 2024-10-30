@@ -212,7 +212,7 @@ mod handlers;
 **import Filter**
 `use warp::Filter;` to import Filter trait, because we use Filter in main function.
 
-> if not import Filter will not find,because Filter is not in available range.
+> if not import Filter will not find, because Filter is not in available range.
 > `use warp::Filter;`
 
 **import #[tokio::main]**
